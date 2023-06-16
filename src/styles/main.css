@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
+
+/*Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+textarea {
+	color: #404040;
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Patua One", serif;
+  letter-spacing: 2px;
+}
+
+.blue {
+    background-color: aliceblue;
+}
+
+.green {
+    background-color: darkseagreen;
+}
+
+.purple {
+    background-color: mediumorchid;
+}
+
+.red {
+    background-color: darksalmon;
+}
+
+.messages {
+    background-color: lightyellow;
+    margin:auto;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly ;
+ 
+}
+
+.farmers {
+    margin-left: 640px;
+    margin-top: 25px;
+}
+.pay {
+    text-align: center;
+}
+.plant {
+    display: flex;
+}
